@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <title>CSS TESTS</title>
+  <meta charset="UTF-8" name="viewport" content="width-device-width, initial scale=1.0"/> <!--Page adapts to the screen size-->
+  <link rel="icon" type="image/x-icon" href="greenicon.png"/> <!--Set the page favicon-->
+  <link rel="stylesheet" href="PJ1-1css.css"> <!--Link to the CSS file-->
+  
+</head>
+<body>
+<h1>3 principais cargos TI no Brasil </h1>
+
+<!--Three blocks' div-->
+<div class="junior">
+  <h2>Junior</h2>
+</div>
+
+<div class="pleno">
+  <h2>Pleno</h2>
+</div>
+
+<div class="senior">
+  <h2>Senior</h2>
+</div>
+
+<!--The levels' table-->
+<div style="overflow-x: auto; margin: 2%;"> <!--Table's accessibility-->
+  <table>
+    <tr>
+      <th></th>
+      <th>Junior &#129322</th>
+      <th>Pleno &#129320</th>
+      <th>Senior &#129488</th>
+    </tr>
+    <tr>
+      <td>Nivel de Respeito &#129320</td>
+      <td>Ruim &#129324</td>
+      <td>Bom &#129323</td>
+      <td>Excelente &#129393</td>
+    </tr>
+    <tr>
+      <td>Salário &#129297</td>
+      <td>Ruim &#129324</td>
+      <td>Bom &#129323</td>
+      <td>Excelente &#129393</td>
+    </tr>
+    <tr>
+      <td>Fazer Gambiarra &#129325</td>
+      <td>Ruim &#129324</td>
+      <td>Bom &#129323</td>
+      <td>Excelente &#129393</td>
+    </tr>
+  </table>
+</div>
+
+<!--Aligning text and image-->
+<div style="outline: none; background: none;"> 
+<p style="text-align: right; position: relative; top: 20px;">Mas e eu, o estagiário?<img style="float: right; position: relative; bottom: 10px; right: 15px;" src="businessman-6350451_640 (1).png" alt="Figura de estagiário"></p>
+</div>
+
+<br><br>
+<div class="laele"> <!--Adding hover-->
+<h2>Hora de colocar a boca no microfone!</h2>
+</div>
+<br>
+
+<!--Levels' Form-->
+<div class="formsalario">
+  <form action="#">
+    <label for="seunome">Qual seu nome?</label>
+    <input type="text" id="seunome" name="nome" placeholder="Nome aqui..."><!--Text input-->
+
+    <!--Levels' radio-->
+    <p>Qual seu nível?</p> 
+
+    <div class="senioridade">
+    <input type="radio" id="jr" name="junior" value="jr">
+    <label for="jr">Junior</label>
+    
+    <input type="radio" id="pl" name="Pleno" value="pl">
+    <label for="pl">Pleno</label>
+    
+    <input type="radio" id="sr" name="senior" value="sr">
+    <label for="sr">Senior</label>
+    </div>
+
+    <br><br>
+    <label for="salario">Qual seu salário aproximadamente? Ex: 2 = R$2.000</label>
+    <input type="number" id="salario" name="salaryo" min="1" max="1000" placeholder="Salário"><!--Number input-->
+
+    <input type="submit" value="Enviar">
+  </form>
+
+</div>
+
+<p>Images by <a style="color: azure;" href="https://pixabay.com/">pixabay</a></p>
+<p>Manoel Gomes' Gif by <a style="color: azure;" href="https://tenor.com/view/manoel-gomes-caneta-azul-azul-caneta-de-olho-gif-27212417">Tenor</a></p>
+</body>
+
+</html>
