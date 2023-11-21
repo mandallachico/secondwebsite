@@ -2,7 +2,7 @@
 
 <h2>Session 1</h2>
 
-<h3>Episode 3 - Shapes, borders and colors.</h3>
+<h3>Episode 4 - CSS, again you.</h3>
 
 <b>What I did:</b>
 <p>Soon...</p>
